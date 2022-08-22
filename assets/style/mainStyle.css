@@ -1,0 +1,238 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-image: url("../images/background_desktop.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-color: #070a0d;
+  background-position: center 80%;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+header {
+  padding: 40px 0;
+  border-bottom: 1px solid #193f71;
+}
+.main-section-video {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 550px;
+  height: 350px;
+}
+.main-section .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.text-main-section {
+  color: #fff;
+  margin-left: 40px;
+}
+.text-main-section span {
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 21px;
+  color: #fd800e;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+}
+.text-main-section h3 {
+  font-family: "Lato";
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.text-main-section p {
+  width: 100%;
+  max-width: 430px;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 24px;
+}
+.socials {
+  margin-top: 122px;
+  padding-bottom: 152px;
+}
+.socials .container {
+  display: flex;
+  align-items: center;
+}
+.inl-b {
+  display: inline-block;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+.telegram {
+  width: calc(49%);
+  /* max-width: 475px; */
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 24px 70px;
+  margin-right: 5px;
+}
+.youtube {
+  width: calc(49%);
+  /* max-width: 475px; */
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 24px 70px;
+  margin-right: 5px;
+  height: 221px;
+}
+.socials h2 {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 24px;
+  width: 600;
+  margin-bottom: 16px;
+}
+.telegram strong {
+  color: #0061ef;
+}
+.socials p {
+  color: #727272;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}
+.telegram a {
+  padding: 14px 24px;
+  background-color: #0061ef;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 600;
+  text-decoration: none;
+}
+.telegram img {
+  position: relative;
+  top: 4px;
+  margin-right: 16px;
+}
+.youtube strong {
+  color: #fd800e;
+}
+.btns {
+  display: flex;
+  align-items: center;
+}
+.canal-youtube {
+  width: 200px;
+}
+.canal-youtube {
+  display: flex;
+  align-items: flex-start;
+}
+.canal-youtube p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.canal-youtube strong {
+  font-size: 16px;
+  font-weight: 100;
+  color: #727272;
+  margin-left: -25px;
+}
+.wrapper-links {
+  display: flex;
+  justify-content: center;
+}
+.btn-acesso {
+  padding: 14px 24px;
+  background-color: #fd800e;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  width: 137px;
+  height: 48px;
+}
+@media screen and (max-width: 1053px) {
+  .main-section .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .inl-b {
+    display: block;
+    text-align: center;
+  }
+  .socials .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .telegram {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  .youtube {
+    width: 100%;
+    /* max-width: 475px; */
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 24px 70px;
+    margin-right: 5px;
+    height: auto;
+  }
+  .canal-youtube strong {
+    font-size: 12px;
+    font-weight: 100;
+    color: #727272;
+    margin-left: 1px;
+  }
+  .canal-youtube p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .btn-acesso {
+    padding: 14px 12px;
+    background-color: #fd800e;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    width: 137px;
+    height: 48px;
+  }
+  .text-main-section {
+    color: #fff;
+    margin-left: 0;
+    margin-top: 24px;
+  }
+  header {
+    padding: 40px 0;
+    border-bottom: 1px solid #193f71;
+    text-align: center;
+  }
+}
+footer {
+  color: #fff;
+  font-family: "Lato";
+  text-align: center;
+  padding-bottom: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
